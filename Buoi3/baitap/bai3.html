@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			font-family: Arial;
+			font-size: 12px;
+			width: 830px;
+			margin: 0px auto;
+			background-image: url(image/tuyet.jpg);
+			background-size: cover;
+		}
+		#background {
+			background: white;
+			width: 830px;
+		}
+		#menu-top {
+			background-image: url(image/menu_bar.gif);
+			background-size: cover;
+			height: 35px;
+			width: 830px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#banner {
+			background-image: url(image/123.jpg);
+			background-size: cover;
+			height: 400px;
+			width: 830px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#main {
+			width: 830px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 1000px;
+		}
+		#main #Left {
+			width: 150px;
+			float: left;
+			background: white;
+			height: 1000px;
+		}
+		#main #Center {
+			width: 500px;
+			float: left;
+			background: white;
+			height: 1000px;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+		#main #Right {
+			width: 150px;
+			float: right;
+			background: white;
+			height: 1000px;
+		}
+		#footer {
+			width: 830px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 50px;
+			background-image: url(image/menu_bar.gif);
+			background-size: cover;
+			text-align: center;
+			line-height: 50px;
+		}
+		#menu-top ul {
+			margin: 0px;
+			padding: 0px;
+		}
+		#menu-top ul li {
+			list-style: none;
+			float: left;
+			display: block;
+			line-height: 35px;
+			color: orange;
+			padding: 0px 20px 0px 20px;
+			border-right: 1px solid black;
+		}
+		#main #Left .menu_left_top ul {
+			margin: 0px;
+			padding: 0px;
+		}
+		#main #Left .menu_left_top ul li{
+			list-style: none;
+			margin-bottom: 5px;
+		}
+		#main #Left .menu_left_top h3 {
+			background-image: url(image/menu_bar.gif);
+			height: 30px;
+			color: white;
+			line-height: 30px;
+			text-align: center;
+		}
+		#main #Left .menu_left_top {
+			margin-bottom: 30px;
+			border: 1px solid black;
+		}
+		#main #Right .menu_left_top h3 {
+			background-image: url(image/menu_bar.gif);
+			height: 30px;
+			color: white;
+			line-height: 30px;
+			text-align: center;
+		}
+		#main #Right .menu_left_top ul {
+			margin: 0px;
+			padding: 0px;
+		}
+		#main #Right .menu_left_top ul li{
+			list-style: none;
+			margin-bottom: 5px;
+		}
+		#main #Right .menu_left_top img {
+			padding-left: 13px;
+			padding-bottom: 5px;
+		}
+		#main #Right .menu_left_top {
+			margin-bottom: 30px;
+			border: 1px solid black;
+		}
+		#main #Center div p {
+			padding: 30px 10px 10px 10px;
+			font-size: 15px;
+			height: 100px;
+			border-radius: 5px;
+			background: orange;
+			margin-left: 15px;
+		}
+		#main #Center .trai h3{
+			background-image: url(image/main_bar_left.gif);
+			background-size: cover;
+			color: white;
+			height: 25px;
+			line-height: 25px;
+			margin-left: 15px;
+			margin-bottom: 2px;
+		}
+		#main #Center .trai h4 {
+			color: orange;
+			margin-left: 15px;
+			margin-bottom: 2px;
+		}
+		#main #Center .trai img {
+			float: left;
+			margin-left: 15px;
+		}
+		#main #Center .trai div {
+			font-size: 13px;
+		}
+		#main #Center .trai div b {
+			color: orange;
+		}
+		#main #Center .trai {
+			margin-bottom: 15px;
+		}
+		#main #Center .phai div {
+			font-size: 13px;
+			margin-left: 15px;
+		}
+		#main #Center .phai {
+			margin-bottom: 15px;
+		}
+		#main #Center .phai div b {
+			color: orange;
+		}
+		#main #Center .phai img {
+			float :right;
+			width: 160px;
+			height: 120px;
+		}
+		#main #Center .phai h3 {
+			background-image: url(image/main_bar_right.gif);
+			background-size: cover;
+			color: white;
+			height: 25px;
+			line-height: 25px;
+			margin-left: 15px;
+			margin-bottom: 2px;
+			text-align: right;
+		}
+		#main #Center .phai h4 {
+			color: orange;
+			margin-left: 15px;
+			margin-bottom: 2px;
+		}
+	</style>
+</head>
+<body>
+	<div id="background">	
+		<div id="banner"></div>
+		<div id="menu-top">
+			<ul>
+				<li>Trang chủ</li>
+				<li>Giới thiệu</li>
+				<li>Tin tức</li>
+				<li>Liên hệ</li>
+				<li>Diễn đàn</li>
+			</ul>
+		</div>
+		<hr>
+		<div id="main">
+			<div id="Left">
+				<div class="menu_left_top">
+					<h3>Danh mục chính</h3>
+					<ul>
+						<li>Gia công phần mềm</li>
+						<li>Đào tạo lập trình viên</li>
+						<li>Tư vấn doanh nghiệp</li>
+						<li>Ảnh viện áo cưới</li>
+					</ul>
+				</div>
+				<div class="menu_left_top">
+					<h3>Bài viết đáng chú ý</h3>
+					<ul>
+						<li>Hướng dẫn đăng kí học</li>
+						<li>Hình thức học tập online</li>
+						<li>Cài đặt và sử dụng skype</li>
+						<li>Cài đặt sử dung teamviewer</li>
+					</ul>
+				</div>
+				<img src="image/img1.gif" alt="anh1">
+				<br>
+				<br>
+				<img src="image/img2.gif" alt="anh2">
+			</div>
+			<div id="Center">
+				<div>
+					<p>
+					ZENT ACADAMY - đơn vị chuyên đào tạo các lập trình viên cho các thị 
+					trường Bắc Mỹ và Canada cũng như các doanh nghiêp trong nước. Chúng tôi hy vọng
+					sẽ mang đến cho các doanh nghiệp cá nhân xuất sắc nhất phù hợp với yêu cầu 
+					công việc
+					</p>
+				</div>
+				<div class="trai">
+					<h3>CNTT</h3>
+					<h4>Gia công phần mềm</h4>
+					<img src="image/phanmem.gif" alt="">
+					<div>ZENT ACADAMY - đơn vị chuyên đào tạo các lập trình viên cho các thị 
+					trường Bắc Mỹ và Canada cũng như các doanh nghiêp trong nước. Chúng tôi hy vọng
+					sẽ mang đến cho các doanh nghiệp cá nhân xuất sắc nhất phù hợp với yêu cầu 
+					công việc...<b>Chi tiết</b></div>
+				</div>
+				<br>
+				<div class="phai">
+					<h3>Giáo dục</h3>
+					<h4>Đào tạo lâp trình viên</h4>
+					<img src="image/leroi.jpg" alt="">
+					<div>ZENT ACADAMY - đơn vị chuyên đào tạo các lập trình viên cho các thị 
+					trường Bắc Mỹ và Canada cũng như các doanh nghiêp trong nước. Chúng tôi hy vọng
+					sẽ mang đến cho các doanh nghiệp cá nhân xuất sắc nhất phù hợp với yêu cầu 
+					công việc...<b>Chi tiết</b></div>
+				</div>
+				<br>
+				<br>
+				<div class="trai">
+					<h3>Thương mại</h3>
+					<h4>Tư vấn doanh nghiệp</h4>
+					<img src="image/doanhnghiep.gif" alt="">
+					<div>ZENT ACADAMY - đơn vị chuyên đào tạo các lập trình viên cho các thị 
+					trường Bắc Mỹ và Canada cũng như các doanh nghiêp trong nước. Chúng tôi hy vọng
+					sẽ mang đến cho các doanh nghiệp cá nhân xuất sắc nhất phù hợp với yêu cầu 
+					công việc...<b>Chi tiết</b></div>
+				</div>
+				<br>
+				<br>
+				<div class="phai">
+					<h3>Dịch vụ</h3>
+					<h4>Ảnh viện áo cưới</h4>
+					<img src="image/anhvien.gif" alt="">
+					<div>ZENT ACADAMY - đơn vị chuyên đào tạo các lập trình viên cho các thị 
+					trường Bắc Mỹ và Canada cũng như các doanh nghiêp trong nước. Chúng tôi hy vọng
+					sẽ mang đến cho các doanh nghiệp cá nhân xuất sắc nhất phù hợp với yêu cầu 
+					công việc...<b>Chi tiết</b></div>
+				</div>
+			</div>
+			<div id="Right">
+				<div class="menu_left_top">
+					<h3>Tư vấn trực tuyến</h3>
+					<img src="image/online.gif" alt="online">
+					<img src="image/offline.gif" alt="offline">
+				</div>
+				<div class="menu_left_top">
+					<h3>Các bài viết mới</h3>
+					<ul>
+						<li>Hlaccess trong php</li>
+						<li>Html5 & SEO</li>
+						<li>Viết trang login & logout cho hệ thống</li>
+						<li>CSS nâng cao</li>
+						<li>Làm mịn da mặt với photoshop cs3</li>
+					</ul>
+				</div>
+				<img src="image/img3.gif" alt="anh3">
+				<img src="image/img4.gif" alt="anh4">
+				<img src="image/img5.gif" alt="anh5">
+			</div>
+		</div>
+		<div id="footer">Bản Quyền Thuộc Về ZENTGROUP -ACADEMY</div>
+	</div>	
+</body>
+</html>
