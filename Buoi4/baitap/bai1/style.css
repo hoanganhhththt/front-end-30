@@ -1,0 +1,237 @@
+.background {
+	background-image: url(image/bg.jpg);
+	width: 1200px;
+	height: 700px;
+	position:relative; l
+	}
+.zent {
+	width: 200px;
+	height: 60px;
+	font-size: 25px;
+	line-height: 60px;
+	padding-left: 20px;
+    }
+.background .submit ul {
+	list-style: none;
+	width: 300px;
+	height: 50px;
+	position: absolute;
+	left: 500px;
+	top: 0px;
+	}
+.submit ul li {
+	float: left;
+	padding:0px 20px 0px 20px;
+	}
+.submit #in {
+	background-color: #D8D8D8;
+	border-radius: 4px;
+	}
+.menu ul {
+	list-style: none;
+	}
+.menu {
+	width: 200px;
+	position: absolute;
+	top: 60px;
+	}
+.menu ul li {
+	font-size: 18px;
+	margin-bottom: 10px;
+	}
+.tech {
+	background-image: url(image/ip.jpg);
+	width: 220px;
+	height: 150px;
+	background-size: cover;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	}
+.travel {
+	background-image: url(image/travel.jpg);
+	width: 220px;
+	height: 150px;
+	background-size: cover;
+	position: absolute;
+	top: 100px;
+	left: 440px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+.photo {
+	background-image: url(image/photo.jpg);
+	width: 220px;
+	height: 150px;
+	background-size: cover;
+	position: absolute;
+	top: 100px;
+	left: 680px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+.finance {
+	background-image: url(image/finance.jpg);
+	width: 220px;
+	height: 150px;
+	background-size: cover;
+	position: absolute;
+	top: 290px;
+	left: 200px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+.movies {
+	background-image: url(image/movie.jpg);
+	width: 220px;
+	height: 150px;
+	background-size: cover;
+	position: absolute;
+	top: 290px;
+	left: 440px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+.cooking {
+	background-image: url(image/cooking.jpg);
+	width: 220px;
+	height: 150px;
+	background-size: cover;
+	position: absolute;
+	top: 290px;
+	left: 680px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+.fashion {
+	background-image: url(image/fashion.jpg);
+	width: 220px;
+	height: 150px;
+	background-size: cover;
+	position: absolute;
+	top: 480px;
+	left: 200px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	}
+.footer ul li {
+	list-style: none;
+	padding:0px 20px 0px 5px;
+	float: left;
+	}
+.footer {
+	position: absolute;
+	top: 650px;
+		}
+.footer .chu {
+	color: blue;
+	text-decoration: underline;
+	}
+.New {
+	background-color: white;
+	height: 30px;
+	width: 220px;
+	position: absolute;
+	top: 70px;
+	left: 200px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	}
+.vel {
+	background-color: white;
+	height: 30px;
+	width: 220px;
+	position: absolute;
+	top: 70px;
+	left: 440px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	}
+.phy {
+	background-color: white;
+	height: 30px;
+	width: 220px;
+	position: absolute;
+	top: 70px;
+	left: 680px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	}
+.rld {
+	background-color: white;
+	height: 30px;
+	width: 220px;
+	position: absolute;
+	top: 260px;
+	left: 200px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	}
+.ies {
+	background-color: white;
+	height: 30px;
+	width: 220px;
+	position: absolute;
+	top: 260px;
+	left: 440px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	}
+.ing {
+	background-color: white;
+	height: 30px;
+	width: 220px;
+	position: absolute;
+	top: 260px;
+	left: 680px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	}
+.ion {
+	background-color: white;
+	height: 30px;
+	width: 220px;
+	position: absolute;
+	top: 450px;
+	left: 200px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	}	
+.duoi {
+	position: absolute;
+	bottom: 0px;
+	font-size: 10px;
+	color: white;
+	padding-left: 8px;
+	}
+.duoi1 {
+	position: absolute;
+	top: 125px;
+	font-size: 10px;
+	color: white;
+	padding-left: 8px;
+	}
+.down {
+	background-color: black;
+	height: 20px;
+	width: 100%;
+	position:absolute;
+	top: 130px;
+	z-index: 70;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	opacity: 0.6;
+	}
+.down1 {
+	background-color: black;
+	height: 25px;
+	width: 100%;
+	position:absolute;
+	top: 125px;
+	z-index: 70;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	opacity: 0.6;
+	}
