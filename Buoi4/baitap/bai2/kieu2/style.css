@@ -1,0 +1,81 @@
+ul {
+    position: relative;
+    list-style: none;
+    background-color: #99CC00;
+    padding: 0;
+    /*height: 30px;*/
+    line-height: 200%;
+}
+#logo {
+	width: 70px;
+	height: 40px;
+	float: left;
+	background-image: url(image/24h-com-vn.jpg);
+	background-size: contain;
+}
+.menu {
+    width: 1100px;
+    padding: 5px 5px 5px 5px ;
+    height: 40px;
+}
+ul>li.item {
+    padding: 5px 5px 5px 5px;
+    font-size: 14px;
+    margin: 0;
+    display: inline-table;
+    text-align: center;
+    border-right: 1px white solid;
+    color: white;
+}
+.find {
+	position: absolute;
+	top: 10px;right: 18px;
+	width: 25px;
+	height: 25px;
+	border-radius: 10px;
+	border: 1px solid white;
+	line-height: 25px;
+	text-align: center;
+	color: white;
+}
+.game {
+	padding: 5px 5px 5px 5px;
+    font-size: 14px;
+    margin: 0;
+    display: inline-table;
+    text-align: center;
+    border-right: 0px;
+    color: white;
+}
+.sub-menu1 {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+    background-color: #7EDA70;
+}
+.sub-menu1 .sub-item1 {
+   width: 180px;
+   text-align: left;
+   padding-left: 5px;
+   border-bottom: 1px solid green;
+}
+.item:hover .sub-menu1{
+    display: block;
+}
+.sub-menu2 {
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: 185px;
+    background-color: #54BF44;
+}
+.sub-menu2 .sub-item2 {
+   width: 180px;
+   text-align: left;
+   padding-left: 5px;
+   border-bottom: 1px solid green;
+}
+.sub-item1:hover .sub-menu2{
+    display: block;
+}
