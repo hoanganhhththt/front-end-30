@@ -1484,3 +1484,33 @@
 .footer41 {
 	font-weight: 600;
 }
+div.main2 div:hover {
+	border: 1px solid yellow;
+}
+div.main4 div:hover {
+	border: 1px solid white;
+}
+div.menu8 div:hover {
+	border: 1px solid white;
+}
+div.menu10 div:hover {
+	border: 1px solid white;	
+}
+div.menu11 div:hover {
+	border: 1px solid white;	
+}
+div.menu12 div:hover {
+	border: 1px solid white;	
+}
+div.menu14 div:hover {
+	border: 1px solid white;	
+}
+div.menu16 div:hover {
+	border: 1px solid white;	
+}
+div.menu18 div:hover {
+	border: 1px solid white;	
+}
+div.menu19 div:hover {
+	border: 1px solid white;	
+}
