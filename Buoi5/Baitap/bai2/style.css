@@ -1,0 +1,331 @@
+.head {
+	width: 1200px;
+	height:100px; 
+}
+.head1 {
+	width: 1200px;
+	height: 60px;
+	background-color: #cc1616;
+	position: relative;
+}
+#logo {
+	background-image: url(image/logo.jpg);
+	height: 50px;
+	width: 180px;
+	background-size: cover;
+	position: absolute;
+	top: 5px;left: 10px;
+}
+#search {
+	height: 50px;
+	width: 550px;
+	position: relative;
+	top: 5px;
+}
+#timkiem {
+	height: 50px;
+	width: 470px;
+	position: absolute;
+	left: 210px;
+}
+#logotim {
+	height: 50px;
+	width: 80px;
+	position: absolute;
+	background-color: #252525;
+	color: white;
+	left: 680px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+}
+#func {
+	height: 50px;
+	width: 400px;
+	position: relative;
+	top: -65px;left: 750px;
+}
+#func ul li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	padding-right: 13px;
+}
+#func ul li img {
+	height: 35px;
+}
+#func ul {
+	width: 450px;
+}
+.chu {
+	color: white;
+}
+#head2 {
+	height: 40px;
+	width: 1200px;
+	background-color: #252525;
+}
+#head2 ul li.item {
+	list-style: none;
+	float: left;
+	color: white;
+	padding-right: 15px;
+	position: relative;
+	left: -400px;
+	font-size: 15px;
+	padding: 5px 10px 5px 10px;
+	display: inline;
+}
+.item1 {
+	list-style: none;
+	float: left;
+	color: white;
+	padding-right: 15px;
+	position: relative;
+	left: 576px;top: -27.5px;
+	font-size: 15px;
+	padding: 5px 10px 5px 10px;
+	display: inline;
+}
+#head2 ul {
+	width: 1500px;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    top:34px;left: 8px;
+    background-color: orange;
+    color: black;
+}
+.sub-menu>.sub-item {
+    width: 1150px;
+}
+.item:hover .sub-menu{
+    display: block;
+}
+#made {
+	width: 400px;
+	height: 180px;
+	position: absolute;
+}
+#watch {
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 180px;
+}
+#price {
+	width: 200px;
+	height: 350px;
+	position: absolute;
+	left: 400px;top: 0px;
+}
+#fast {
+	width: 550px;
+	height: 350px;
+	position: absolute;
+	left: 600px;top: 0px;
+}
+#fast div img.anhdt {
+	width: 65px;
+	height: 70px;
+}
+#fast #quangcao img {
+	width: 230px;
+	height: 280px;
+	position: absolute;
+	right: 10px;top: 10px;
+}
+#fast2 {
+	width: 220px;
+	height: 100px;
+	position: relative;
+	top: 40px;
+}
+#fast1 {
+	width: 220px;
+	height: 100px;
+	position: relative;
+	top: 40px;
+}
+.fast11 {
+	position: absolute;
+	left: 70px;top: 10px;
+	font-size: 15px;
+}
+.fast12 {
+	position: absolute;
+	left: 70px;top: 30px;
+	font-size: 20px;
+	color: red;
+}
+.fast0 {
+	font-size: 18px;
+	position: absolute;
+	top: 10px;
+}
+#price ul li {
+	list-style: none;
+	padding-bottom: 15px;
+}
+#price ul {
+	position: absolute;
+	top: 40px;
+}
+#watch1 {
+	font-size: 18px;
+	position: absolute;
+}
+#made ul li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+#made ul {
+	padding-left: 20px;
+}
+#hang1{
+	position: absolute;
+	top: 40px;
+}
+#hang2{
+	position: absolute;
+	top: 40px;left: 100px;
+}
+#hang3{
+	position: absolute;
+	top: 40px;left: 200px;
+}
+#hang11{
+	position: absolute;
+	top: 40px;
+}
+#hang21{
+	position: absolute;
+	top: 40px;left: 100px;
+}
+#hang31{
+	position: absolute;
+	top: 40px;left: 200px;
+}
+#watch ul li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+#watch ul{
+	padding-left: 20px;
+}
+.main {
+	width: 1200px;
+	height: 2000px;
+	background-color: #FAFAFA;
+	position: relative;	
+}
+.main1 {
+	width: 1130px;
+	height: 700px;
+	background-color: white;
+	margin-left: 28px;
+}
+#main11 {
+	width: 680px;
+	height: 490px;
+	position: relative;
+	background-color: white;
+}
+#banner2{
+	background-image: url(image/banner2.jpg);
+	position: absolute;
+	background-size: cover;
+	right: 30px;top: 10px;
+	width: 440px;height: 100px;
+}
+#banner3 {
+	background-image: url(image/banner3.jpg);
+	background-size: cover;
+	position: absolute;
+	right:30px;top: 120px;
+	width: 440px;height: 100px;
+}
+#main12 {
+	width: 450px;height: 260px;
+	position: relative;
+	right: -720px;top: -260px;
+}
+#main11 img {
+	height: 390px;
+	width: 680px;
+	position: absolute;top: 10px;
+	left: 0px;
+}
+#main11 ul {
+	height: 100px;
+	width: 710px;
+	position: absolute;
+	left: -40px;top: 400px;
+}
+#main11 ul li {
+	list-style: none;
+	float: left;
+	width: 100px;
+	padding-left: 10px;
+	text-align: center;
+}
+#tieude {
+	color: red;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	width: 300px;
+	position: absolute;
+	left: -10px;
+}
+#all {
+	color: blue;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	width: 150px;
+	position: absolute;
+	right: -40px;top: 0px;
+}
+#youtube {
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	background-image: url(image/banner4.jpg);
+	background-size: cover;
+	top: 50px;left: -20px;
+}
+#ipod {
+	width: 100px;
+	height: 60px;
+	position: absolute;
+	background-image: url(image/banner5.jpg);
+	background-size: cover;
+	position: absolute;
+	top: 150px;left: -20px;
+}
+#youtube1 {
+	position: absolute;
+	left: 90px;top: 60px;
+	font-size: 18px;
+	width: 320px;
+}
+#ipod1 {
+	position: absolute;
+	left: 90px;top: 160px;
+	font-size: 18px;
+	width: 320px;
+}
+.main2 {
+ 	width: 1130px;
+	height: 75px;
+	background-image: url(image/quangcao2.jpg);
+	background-size: cover;
+	margin-left: 28px;
+	position: relative;
+	top: -200px;
+}
