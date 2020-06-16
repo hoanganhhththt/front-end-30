@@ -97,8 +97,9 @@
     display: none;
     position: absolute;
     top:34px;left: 8px;
-    background-color: orange;
+    background-color: white;
     color: black;
+    z-index: 200;
 }
 .sub-menu>.sub-item {
     width: 1150px;
@@ -110,24 +111,28 @@
 	width: 400px;
 	height: 180px;
 	position: absolute;
+	background-color: white;
 }
 #watch {
 	width: 400px;
 	height: 150px;
 	position: absolute;
 	top: 180px;
+	background-color: white;
 }
 #price {
 	width: 200px;
-	height: 350px;
+	height: 330px;
 	position: absolute;
 	left: 400px;top: 0px;
+	background-color: white;
 }
 #fast {
 	width: 550px;
-	height: 350px;
+	height: 330px;
 	position: absolute;
 	left: 600px;top: 0px;
+	background-color: white;
 }
 #fast div img.anhdt {
 	width: 65px;
@@ -219,13 +224,14 @@
 }
 .main {
 	width: 1200px;
-	height: 2000px;
+	height: 3000px;
 	background-color: #FAFAFA;
 	position: relative;	
+	z-index: 80;
 }
 .main1 {
 	width: 1130px;
-	height: 700px;
+	height: 500px;
 	background-color: white;
 	margin-left: 28px;
 }
@@ -327,5 +333,127 @@
 	background-size: cover;
 	margin-left: 28px;
 	position: relative;
-	top: -200px;
+	top: 0px;
+}
+.main3 {
+	width: 1130px;
+	height: 60px;
+	margin-left: 28px;
+	position: relative;
+	top: 0px;
+	line-height: 60px;
+}
+.left {
+	font-size: 25px;
+
+}
+.right {
+	font-size: 18px;
+	position: absolute;
+	top: 0px;right: 0px;
+	color: blue;
+}
+.main4 {
+	width: 1130px;
+	height: 920px;
+	margin-left: 28px;
+	position: relative;
+	top: 0px;
+	line-height: 60px;
+}
+.main41 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+}
+.main42 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+	left: 380px;top: -300px;
+}
+.main43 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+	left: 760px;top: -600px;
+}
+.main44 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+	top: -590px;
+}
+.main45 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+	left: 380px;top: -890px;
+}
+.main46 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+	left: 760px;top: -1190px;
+}
+.main47 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+	top: -1180px;
+}
+.main48 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+	left: 380px;top: -1480px;
+}
+.main49 {
+	width: 370px;
+	height: 300px;
+	position: relative;
+	background-color: white;
+	left: 760px;top: -1780px;
+}
+.tendt {
+	font-size: 20px;
+	font-weight: 600;
+	position: absolute;
+	top: 0px;left: 25px;
+}
+.giadt {
+	font-size: 20px;
+	font-weight: 550;
+	position: absolute;
+	top: 40px;left: 25px;
+}
+.total {
+	width: 370px;
+	height: 200px;
+	position: absolute;top: 90px;
+}
+.main5 {
+	width: 1130px;
+	height: 610px;
+	margin-left: 28px;
+	position: relative;
+	top: 0px;
+	line-height: 60px;
+}
+.main6 {
+	width: 1130px;
+	height: 300px;
+	margin-left: 28px;
+	position: relative;
+	top: 0px;
+	line-height: 60px;
+
 }
