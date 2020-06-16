@@ -457,3 +457,31 @@
 	line-height: 60px;
 
 }
+.main7 {
+	width: 1130px;
+	height: 60px;
+	margin-left: 28px;
+	position: relative;
+	top: 0px;
+	line-height: 60px;
+	background-color: #AAAAAA;
+}
+.main7 ul li {
+	list-style: none;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 30px;
+	line-height: 30px;
+	background-color: white;
+	border-radius: 15px;
+	margin-top: 15px;
+	font-size: 15px;
+	margin-left: 5px;
+}
+.main7 ul {
+	width: 1130px;
+	height: 60px;
+	padding: 0px;
+}
+
