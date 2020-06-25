@@ -744,6 +744,7 @@
 		height: 1200px;
 	}
 	.name2 {
+		height: 10%;
 		width: 90%;
 		left: 5%;
 		text-align: center;
@@ -751,17 +752,20 @@
 	}
 	.year {
 		width: 90%;
+		height: 6%;
 		left: 5%;
 		text-align: center;
 		top: 12%;
 	}
 	.information {
 		width: 90%;
+		height: 12.5%;
 		left: 5%;
 		top: 19%;
 		text-align: center;
 	}
 	.information2 {
+		height: 8%;
 		width: 90%;
 		left: 5%;
 		top: 33%;
