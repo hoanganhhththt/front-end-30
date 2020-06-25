@@ -698,7 +698,12 @@
 	}	
 }
 @media all and (max-width: 480px){
-	.hdmain {
+	
+	.header{
+		height: 500px;
+		background-size: cover;
+	}
+		.hdmain {
 		width: 100%;
 		height: 15%;
 		background:white;
