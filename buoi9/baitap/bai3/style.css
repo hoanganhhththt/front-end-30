@@ -1,0 +1,21 @@
+#input1 {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	z-index: 200;
+}
+#button1 {
+	position: absolute;
+	left: 30px;top: 180px;
+	z-index: 300;
+}
+#button2 {
+	position: absolute;
+	left: 170px;top: 180px;
+	z-index: 300;
+}
+#button3 {
+	position: absolute;
+	left: 290px;top: 180px;
+	z-index: 300;
+}

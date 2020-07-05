@@ -1,0 +1,21 @@
+.main {
+	width: 600px;
+	height: 60px;
+	position: relative;
+	border: 1px solid black;
+}
+.main1 {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	left: 10px;top: 15px;
+}
+.main2 {
+	position: absolute;
+	height: 60px;
+	width: 500px;
+	left: 70px;
+	border-left: 1px solid black;
+	line-height: 60px;
+	padding-left: 30px;
+}
