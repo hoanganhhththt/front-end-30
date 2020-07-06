@@ -1,33 +1,18 @@
 var elements = document.getElementsByClassName('section');
-var li1 = document.getElementById('li1');
-var li2 = document.getElementById('li2');
-var li3 = document.getElementById('li3');
+var lielement = document.getElementsByClassName('lielement');
 function noneAll() {
-	elements[0].style.display = 'none';
-	elements[1].style.display = 'none';
-	elements[2].style.display = 'none';
-	li1.style.backgroundColor = 'gray';
-	li1.style.color = 'white';
-	li2.style.backgroundColor = 'gray';
-	li2.style.color = 'white';
-	li3.style.backgroundColor = 'gray';
-	li3.style.color = 'white';
+	for(let i = 0; i<elements.length ; i++){
+		elements[i].style.display = 'none';
+		lielement[i].style.backgroundColor = 'gray';
+		lielement[i].style.color = 'white';
+	}
 }
-function click1() {
+
+function clickTest(element) {
 	noneAll();
-	elements[0].style.display = 'block';
-	li1.style.backgroundColor = 'white';
-	li1.style.color = 'black';
-}
-function click2() {
-	noneAll();
-	elements[1].style.display = 'block';
-	li2.style.backgroundColor = 'white';
-	li2.style.color = 'black';
-}
-function click3() {
-	noneAll();
-	elements[2].style.display = 'block';
-	li3.style.backgroundColor = 'white';
-	li3.style.color = 'black';
+	element.style.backgroundColor = 'white';
+	element.style.color = 'black';
+	var x = element.id;
+	var y = x.substring(3,4);
+	elements[y].style.display = 'block';
 }
