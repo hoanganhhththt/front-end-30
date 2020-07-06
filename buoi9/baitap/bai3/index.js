@@ -3,8 +3,12 @@ function defaultFont(){
 	x.style.fontSize = '20px';
 }
 function plusFont(){
-	x.style.fontSize *= '1.4';
+	var a = x.style.fontSize;
+	var b =  a.substring(0,a.length-2)*1.4 +'px';
+	x.style.fontSize = b;
 }
 function unplusFont(){
-	x.style.fontSize *= '0.6';
+	var a = x.style.fontSize;
+	var b =  a.substring(0,a.length-2)*0.6 +'px';
+	x.style.fontSize = b;
 }
