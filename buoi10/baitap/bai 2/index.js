@@ -69,6 +69,9 @@ document.frm.testpass.addEventListener('change', function() {
 	if (x == '') {
         msg_error = 'Yêu cầu xác nhận mật khẩu';
     }
+    if (x !== document.frm.password.value) {
+        msg_error = 'Yêu cầu xác nhận mật khẩu';
+    }
     this.nextElementSibling.innerHTML = msg_error;
 });
 function test() {
@@ -91,11 +94,18 @@ function test() {
         document.frm.testpass.nextElementSibling.innerHTML = 'Mật khẩu khác nhau';
     }
     };
-function test2(){
-    if ( thongbao[0].innerHTML == '' && thongbao[1].innerHTML == '' && thongbao[2].innerHTML == '' && thongbao[3].innerHTML == '' && thongbao[4].innerHTML == ''){
+function test3(){   
+    if (thongbao[0].innerHTML == '' && thongbao[1].innerHTML == '' && thongbao[2].innerHTML == '' && thongbao[3].innerHTML == '' && thongbao[4].innerHTML == '' && thongbao[5].innerHTML == ''){
         alert('Thành công');
+        console.log('Thành công');
+    } else {
+        test();
     }
 }
+function test2(){
+    test() ;
+    test3();
+};   
 function deleteAll(){
 	document.frm.name.value == '';
 	document.frm.email.value == '';
