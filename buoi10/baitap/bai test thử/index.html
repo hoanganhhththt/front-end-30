@@ -11,17 +11,18 @@
 		<div id="main">
 			<div class="main1">
 				<div class="tieude">Họ và tên</div>
-				<input type="text" class="input" placeholder="Nhập họ tên ..." name="name" >
+				<input type="text" class="input" placeholder="Nhập họ tên ..." name="name">
 				<div class="thongbao"></div>
 			</div>
 			<div class="main1">
-				<div class="tieude1">Giới tính</div>
+				<div class="tieude">Giới tính</div>
 				<div id="Nam"><input type="radio" value="Nam" name="gioitinh">Nam</div>
 				<div id="Nu"><input type="radio" value="Nữ" name="gioitinh">Nữ</div>
+				<div class="thongbao"></div>
 			</div>
 			<div class="main1">
 				<div class="tieude">Email</div>
-				<input type="email" class="input" placeholder="Nhập email ..." name="email">
+				<input type="text" class="input" placeholder="Nhập email ..." name="email">
 				<div class="thongbao"></div>
 			</div>
 			<div class="main1">
@@ -40,8 +41,8 @@
 				<div class="thongbao"></div>
 			</div>
 		</div>
-		<button id="done" onclick="testAll()" type="button">Đăng kí</button>
-		<button type="button" id="delete" onclick="deleteAll()">Xóa trắng</button>
+		<button type="button" id="done" onclick="test()" ondblclick="test2()">Đăng kí</button>
+		<button  id="delete" onclick="deleteAll()">Xóa trắng</button>
 	</form>
 </body>
 <script src="index.js"></script>
