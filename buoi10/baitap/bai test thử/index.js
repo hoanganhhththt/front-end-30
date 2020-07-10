@@ -43,7 +43,7 @@ document.frm.email.addEventListener('change', function() {
  //         msg_error = '' ;
  // } 
     console.log (filter.test(String(x).toLowerCase()));
-    if (x = ''){
+    if (x == ''){
         msg_error = 'Yêu cầu nhập email';
     }
     if (filter.test(String(x).toLowerCase())){
