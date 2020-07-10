@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form id="background" name="frm">
+		<div id="main">
+			<div class="main1">
+				<div class="tieude">Họ và tên</div>
+				<input type="text" class="input" placeholder="Nhập họ tên ..." name="name">
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Giới tính</div>
+				<div id="Nam"><input type="radio" value="Nam" name="gioitinh">Nam</div>
+				<div id="Nu"><input type="radio" value="Nữ" name="gioitinh">Nữ</div>
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Email</div>
+				<input type="text" class="input" placeholder="Nhập email ..." name="email">
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Số điện thoại</div>
+				<input type="number" class="input" placeholder="Nhập số điệnt thoại ..." name="phonenumber">
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Mật khẩu</div>
+				<input type="password" class="input" name="password">
+				<div class="thongbao"></div>
+			</div>
+			<div class="main1">
+				<div class="tieude">Xác nhận mật khẩu</div>
+				<input type="password" class="input" name="testpass">
+				<div class="thongbao"></div>
+			</div>
+		</div>
+		<button id="done" onclick="test()">Đăng kí</button>
+		<button id="delete" onclick="deleteAll()">Xóa trắng</button>
+	</form>
+</body>
+<script src="index.js"></script>
+</html>
