@@ -1,0 +1,74 @@
+.container {
+	width: 800px;
+	height: 120px;
+	background-color: #FF3333;
+	margin: 20px auto 0 auto;
+	position: relative;
+}
+#title {
+	width: 800px;
+	height: 60px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 60px;
+}
+#input {
+	width: 500px;
+	height: 30px;
+	position: absolute;
+	left: 50px;top: 70px;
+}
+#add {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	top: 70px;left: 550px;
+	background-color: #888888;
+	border: 3px solid gray;
+	text-align: center;
+	line-height: 30px;
+}
+.add1 {
+	width: 750px;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 50px;
+	position: relative;
+	background-color: orange;
+	margin: 0 auto;
+	z-index: 200;
+}
+.add-x{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: gray;
+	position: absolute;
+	right: 0;top: 0;
+	z-index: 500;
+}
+.add-v {
+	height: 60px;
+	width: 50px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 30px;
+	color: gray;
+	position: absolute;
+	left: 0px;top: 0;
+	z-index: 500;
+}
+.add2 {
+	width: 750px;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 50px;
+	position: relative;
+	background-color: #BBBBBB;
+	margin: 0 auto;
+	z-index: 200;
+}

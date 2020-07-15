@@ -30,4 +30,14 @@ function nextleft (){
 setInterval(function (){
 	nextright();
 },10000);
-
+function clickthe(){
+	var chuyen1;
+	for (var i = vuong.length - 1; i >= 0; i--) {
+		if(vuong[i] == this){
+			console.log(vuong[i]);
+			chuyen = i*1000;
+			vuong[i].style.opacity = 1;
+			chuyenslide1.style.marginLeft = '-' + chuyen1 + 'px';
+		}
+	}
+}

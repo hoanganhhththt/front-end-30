@@ -6,6 +6,7 @@
 	width: 1000px;
 	height: 400px;
 	float: left;
+	z-index: 200;
 }
 .slide {
 	width: 1000px;
@@ -45,4 +46,5 @@
 	position: relative;
 	margin-right: 10px;
 	top: -60px;left: 700px;
+	z-index: 500;
 }
